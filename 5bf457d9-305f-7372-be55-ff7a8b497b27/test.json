@@ -1,0 +1,106 @@
+{
+    "version": 7,
+    "id": "5bf457d9-305f-7372-be55-ff7a8b497b27",
+    "title": "Test 1",
+    "description": "Test 1",
+    "steps": [
+        {
+            "id": "83a53be1-2f24-d7d2-d1e6-0bd81a4514d8",
+            "type": "startApp",
+            "optional": false,
+            "createdOn": 1689820621435,
+            "packageName": "com.doximity.doximitydroid",
+            "activityName": ".features.login.launcher.LauncherActivity",
+            "deleteAppData": false,
+            "grantPermissions": [
+                "ACCESS_COARSE_LOCATION",
+                "CALL_PHONE",
+                "CAMERA",
+                "READ_CONTACTS",
+                "READ_EXTERNAL_STORAGE",
+                "READ_PHONE_NUMBERS",
+                "READ_PHONE_STATE",
+                "RECORD_AUDIO",
+                "WRITE_EXTERNAL_STORAGE"
+            ],
+            "allPermissions": [
+                "ACCESS_COARSE_LOCATION",
+                "CALL_PHONE",
+                "CAMERA",
+                "READ_CONTACTS",
+                "READ_EXTERNAL_STORAGE",
+                "READ_PHONE_NUMBERS",
+                "READ_PHONE_STATE",
+                "RECORD_AUDIO",
+                "WRITE_EXTERNAL_STORAGE"
+            ],
+            "grantIosPermissions": [],
+            "allIosPermissions": [],
+            "os": "Android",
+            "iosBundleId": "",
+            "params": "",
+            "recordedOn": "Pixel 6a"
+        },
+        {
+            "id": "d0da0878-2562-8a3c-78fd-6d928838370f",
+            "originalFrame": "6c0b2575-7430-9512-22de-e11cdc82890c_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1689820621362,
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.22571428571428576,
+                "y": 0.8828784648187633,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "b19a31d1-33b1-2adc-f211-8f5b13a4c0a3_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.225,
+                        "y": 0.8825
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9999997615814209
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.28571428571428575,
+                "y": 0.9028784648187633
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "recordedOn": "Pixel 6a"
+        }
+    ],
+    "createdOn": 1689820612613,
+    "changedOn": 1689820986534,
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "completed": true,
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "1080x2400",
+            "serial": "27071JEGR08154",
+            "name": "Pixel 6a",
+            "brand": "google",
+            "currentRotation": "ROTATION_0",
+            "rotationVars": {
+                "portrait": "ROTATION_0",
+                "landscape": "ROTATION_90",
+                "upsideDown": "ROTATION_180",
+                "seascape": "ROTATION_270"
+            },
+            "isSimulator": false
+        }
+    ]
+}
