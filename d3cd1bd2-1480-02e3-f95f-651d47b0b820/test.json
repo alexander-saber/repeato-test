@@ -1,0 +1,178 @@
+{
+    "version": 7,
+    "id": "d3cd1bd2-1480-02e3-f95f-651d47b0b820",
+    "title": "Workplace Navigator test",
+    "description": "",
+    "steps": [
+        {
+            "id": "c9439109-0dad-e902-1a41-b9e32c88b08f",
+            "type": "startApp",
+            "optional": false,
+            "createdOn": 1700190502314,
+            "recordedOn": "Pixel 6a",
+            "packageName": "com.doximity.doximitydroid",
+            "activityName": ".NavActivity",
+            "deleteAppData": false,
+            "grantPermissions": [
+                "ACCESS_COARSE_LOCATION",
+                "CALL_PHONE",
+                "CAMERA",
+                "READ_CONTACTS",
+                "READ_EXTERNAL_STORAGE",
+                "READ_PHONE_NUMBERS",
+                "READ_PHONE_STATE",
+                "RECORD_AUDIO",
+                "WRITE_EXTERNAL_STORAGE"
+            ],
+            "allPermissions": [
+                "ACCESS_COARSE_LOCATION",
+                "CALL_PHONE",
+                "CAMERA",
+                "READ_CONTACTS",
+                "READ_EXTERNAL_STORAGE",
+                "READ_PHONE_NUMBERS",
+                "READ_PHONE_STATE",
+                "RECORD_AUDIO",
+                "WRITE_EXTERNAL_STORAGE"
+            ],
+            "grantIosPermissions": [],
+            "allIosPermissions": [],
+            "os": "Android",
+            "iosBundleId": "",
+            "params": ""
+        },
+        {
+            "id": "d759dea7-dae1-ea35-bb7a-40775e91b820",
+            "originalFrame": "b8373ae9-fae9-13ed-ed0b-8ee3e433a0a7_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1700190502231,
+            "recordedOn": "Pixel 6a",
+            "region": {
+                "x": 0.21999999999999997,
+                "y": 0.56,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.8178238819732595,
+                "y": 0.8961825726141078,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "7b2ad579-51bb-0997-4665-3d7f5dbcc6fc_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8181481481481481,
+                        "y": 0.8958333333333334
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 1
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.8778238819732596,
+                "y": 0.9161825726141078
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "1f62a2ea-f813-d723-3079-1d01d5b75537",
+            "originalFrame": "5bafe9e6-8cac-985e-d320-21382d52537b_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1700190509793,
+            "recordedOn": "Pixel 6a",
+            "region": {
+                "x": 0,
+                "y": 0,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.12441678192715538,
+                "y": 0.18829875518672198,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "7d1d7f9b-9444-a047-700d-f8e9751cd32f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.12407407407407407,
+                        "y": 0.18791666666666668
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9999998325875481
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.18441678192715538,
+                "y": 0.20829875518672197
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "((‘.ig_)\\"
+                }
+            ]
+        },
+        {
+            "id": "46dd9ed9-f7e5-2481-b20e-14653576327c",
+            "originalFrame": "a54ec2e4-aeda-3222-5638-54a06c26b87a_frame.jpg",
+            "type": "scanTextAssertion",
+            "optional": false,
+            "createdOn": 1700190705285,
+            "recordedOn": "Pixel 6a",
+            "region": {
+                "x": 0.02886597938144466,
+                "y": 0.20804953560371506,
+                "width": 0.5505154639175257,
+                "height": 0.04582043343653252
+            },
+            "matchIndex": 0,
+            "searchText": "Based on Your Specialty",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "1080x2400",
+            "serial": "27071JEGR08154",
+            "name": "Pixel 6a",
+            "brand": "google",
+            "currentRotation": "ROTATION_0",
+            "rotationVars": {
+                "portrait": "ROTATION_0",
+                "landscape": "ROTATION_90",
+                "upsideDown": "ROTATION_180",
+                "seascape": "ROTATION_270"
+            },
+            "isSimulator": false
+        }
+    ],
+    "createdOn": 1700190490644,
+    "changedOn": 1700190777957,
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": []
+}
